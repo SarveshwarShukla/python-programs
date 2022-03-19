@@ -1,3 +1,6 @@
+# Program to check if a entered email is valid or not
+# Sarveshwar Shukla (17 March 2022)
+
 def emailChecking():
     email = input("Enter the Email : ")
     spacePresent = 0
