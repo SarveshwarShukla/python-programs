@@ -4,13 +4,13 @@
 
 from pytube import YouTube
 
-link = "https://www.youtube.com/watch?v=tdY_xa5OMr8"
-youtube_1 = YouTube(link)
+link = "https://www.youtube.com/watch?v=ULcOQ2w4sPk"
+link_info = YouTube(link)
 
-# print(youtube_1.title)
-# print(youtube_1.thumbnail_url)
+# print(link_info.title)
+# print(link_info.thumbnail_url)
 
-videoResolution = youtube_1.streams.all()
+videoResolution = link_info.streams.all()
 videoResolutionList = list(enumerate(videoResolution))
 for i in videoResolutionList:
     print(i)
